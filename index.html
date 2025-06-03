@@ -14,17 +14,20 @@
 <body>
     <nav class="nav">
         <img src="./assets/img/WhatsApp_Image_2025-06-02_at_23.45.51-removebg-preview.png" alt="logo da empresa" width="130px" class="logoEmpresa">
-        <h1 class="menu-titulo">MENU</h1>
+        <h1 class="menu-titulo"><a href="#menu">MENU</a></h1>
             <ul class="botoesmenu">
-                <li><i class="fa-solid fa-circle-exclamation"></i> Problema</li>
-                <li><i class="fa-solid fa-microchip"></i> Tecnologias</li>
-                <li><i class="fa-solid fa-bullseye"></i> Objetivos</li>
-                <li><i class="fa-solid fa-person"></i> Público alvo</li>
-                <li><i class="fa-solid fa-plus"></i> Benefícios</li>
-                <li><i class="fa-solid fa-calendar-days"></i> Dia a dia</li>
+                <ul class="botoesmenu">
+                    <li><a href="#problema"><i class="fa-solid fa-circle-exclamation"></i> Problema</a></li>
+                    <li><a href="#tecnologias"><i class="fa-solid fa-microchip"></i> Tecnologias</a></li>
+                    <li><a href="#objetivos"><i class="fa-solid fa-bullseye"></i> Objetivos</a></li>
+                    <li><a href="#publico"><i class="fa-solid fa-person"></i> Público alvo</a></li>
+                    <li><a href="#beneficios"><i class="fa-solid fa-plus"></i> Benefícios</a></li>
+                    <li><a href="#diaadia"><i class="fa-solid fa-calendar-days"></i> Dia a dia</a></li>
+                </ul>
+
             </ul>
     </nav>
-    <div class="imagemPrincipal">
+    <div class="imagemPrincipal" id="menu">
         <img src="./assets/img/principal.jpg" alt="imagem de enchente" class="slide ativo">
         <img src="./assets/img/segunda.jpg" alt="imagem 2" class="slide">
         <img src="./assets/img/terceira.jpg" alt="imagem 3" class="slide">
@@ -42,57 +45,69 @@
     </div>
     <hr>
     <div class="secoes">
-        <div class="tituloSecoes">
-            <i class="fa-solid fa-circle-exclamation"></i>
-            <h1>Problema</h1>
+        <div id="problema">
+            <div class="tituloSecoes">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <h1>Problema</h1>
+            </div>
+                <p><span class="enchentes">Enchentes</span> causam prejuízos, colocam vidas em <span class="vermelho">risco</span> e surpreendem comunidades sem qualquer aviso ou preparo prévio. Sem alertas <span class="verde">antecipados</span> e dados <span class="verde">confiáveis</span>, a resposta é lenta e os <span class="vermelho">danos</span> aumentam com a frequência dos eventos extremos.</p>
+                <img src="./assets/img/problema-imagem.jpg" alt="Enchente no brasil">
         </div>
-            <p><span class="enchentes">Enchentes</span> causam prejuízos, colocam vidas em <span class="vermelho">risco</span> e surpreendem comunidades sem qualquer aviso ou preparo prévio. Sem alertas <span class="verde">antecipados</span> e dados <span class="verde">confiáveis</span>, a resposta é lenta e os <span class="vermelho">danos</span> aumentam com a frequência dos eventos extremos.</p>
-            <img src="./assets/img/problema-imagem.jpg" alt="Enchente no brasil">
         </div>
         <hr>
         <div class="secoes">
-            <div class="tituloSecoes">
-                <i class="fa-solid fa-microchip"></i>
-                <h1>Tecnologias</h1>
-        </div>
-            <p><span class="verde">Sensores de nível</span> e <span class="verde">Arduino</span> realizam monitoramento <span class="verde">contínuo</span> e análise local dos dados para detectar <span class="vermelho">riscos</span> rapidamente. Aplicativo móvel envia alertas em tempo <span class="verde">real</span>, oferece gráficos e integra órgãos públicos para ampliar o alcance das notificações.</p>
-            <img src="./assets/img/arduino.png" alt="Arduíno">
-        </div>
-        <hr>
-        <div class="secoes">
-            <div class="tituloSecoes">
-                <i class="fa-solid fa-bullseye"></i>
-                <h1>Objetivos</h1>
-        </div>
-            <p><span class="verde">Prevenir</span> <span class="vermelho">danos</span> causados por <span class="enchentes">enchentes</span>, enviando alertas <span class="verde">antecipados</span> para proteger vidas e reduzir prejuízos materiais. <span class="verde">Ampliar</span> o alcance dos alertas, integrar órgãos públicos e expandir a solução para diferentes regiões com tecnologia <span class="verde">confiável</span>.</p>
-            <img src="./assets/img/foto-objetivos.jpeg" alt="Arduíno" >
+            <div id="tecnologias">
+                <div class="tituloSecoes">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h1>Tecnologias</h1>
+            </div>
+                <p><span class="verde">Sensores de nível</span> e <span class="verde">Arduino</span> realizam monitoramento <span class="verde">contínuo</span> e análise local dos dados para detectar <span class="vermelho">riscos</span> rapidamente. Aplicativo móvel envia alertas em tempo <span class="verde">real</span>, oferece gráficos e integra órgãos públicos para ampliar o alcance das notificações.</p>
+                <img src="./assets/img/arduino.png" alt="Arduíno">
+            </div>
         </div>
         <hr>
         <div class="secoes">
-            <div class="tituloSecoes">
-                <i class="fa-solid fa-person"></i>
-                <h1>Público-alvo</h1>
-        </div>
-            <p>Moradores em áreas de <span class="vermelho">risco</span> que precisam de avisos <span class="verde">rápidos</span> para se protegerem e proteger seus bens. Órgãos públicos, empresas, condomínios, escolas e projetos urbanos que buscam prevenção e monitoramento <span class="verde">eficaz</span> contra <span class="enchentes">enchentes</span>.</p>
-            <img src="./assets/img/areas de risco.webp" alt="Arduíno" >
-        </div>
-        <hr>
-        <div class="secoes">
-            <div class="tituloSecoes">
-                <i class="fa-solid fa-plus"></i>
-                <h1>Benefícios</h1>
-        </div>
-            <p>Notificações em tempo <span class="verde">real</span> que permitem agir antes das <span class="enchentes">enchentes</span> e evitar <span class="vermelho">danos</span> materiais e pessoais. <span class="verde">Sistema automatizado</span>, <span class="verde">confiável</span>, integrado com órgãos públicos e <span class="verde">acessível</span> via aplicativo móvel para todos os usuários.</p>
-            <img src="./assets/img/beneficios.webp" alt="Arduíno" >
+            <div id="objetivos">
+                <div class="tituloSecoes">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <h1>Objetivos</h1>
+                </div>
+                    <p><span class="verde">Prevenir</span> <span class="vermelho">danos</span> causados por <span class="enchentes">enchentes</span>, enviando alertas <span class="verde">antecipados</span> para proteger vidas e reduzir prejuízos materiais. <span class="verde">Ampliar</span> o alcance dos alertas, integrar órgãos públicos e expandir a solução para diferentes regiões com tecnologia <span class="verde">confiável</span>.</p>
+                    <img src="./assets/img/foto-objetivos.jpeg" alt="Arduíno" >
+            </div>
         </div>
         <hr>
         <div class="secoes">
-            <div class="tituloSecoes">
-                <i class="fa-solid fa-calendar-days"></i>
-                <h1>Dia a dia</h1>
+            <div id="publico">
+                <div class="tituloSecoes">
+                    <i class="fa-solid fa-person"></i>
+                    <h1>Público-alvo</h1>
+                </div>
+                    <p>Moradores em áreas de <span class="vermelho">risco</span> que precisam de avisos <span class="verde">rápidos</span> para se protegerem e proteger seus bens. Órgãos públicos, empresas, condomínios, escolas e projetos urbanos que buscam prevenção e monitoramento <span class="verde">eficaz</span> contra <span class="enchentes">enchentes</span>.</p>
+                    <img src="./assets/img/areas de risco.webp" alt="Arduíno" >
+            </div>
         </div>
-            <p>A solução fornece alertas em tempo <span class="verde">real</span>, permitindo que usuários se preparem e evitem <span class="vermelho">riscos</span> de <span class="enchentes">enchentes</span>. Com dados acessíveis no app, moradores e autoridades tomam decisões <span class="verde">rápidas</span> e <span class="verde">protegem</span> pessoas e patrimônios com <span class="verde">eficiência</span>.</p>
-            <img src="./assets/img/dia a dia.jpg" alt="Arduíno" >
+        <hr>
+        <div class="secoes">
+            <div id="beneficios">
+                <div class="tituloSecoes">
+                    <i class="fa-solid fa-plus"></i>
+                    <h1>Benefícios</h1>
+                </div>
+                    <p>Notificações em tempo <span class="verde">real</span> que permitem agir antes das <span class="enchentes">enchentes</span> e evitar <span class="vermelho">danos</span> materiais e pessoais. <span class="verde">Sistema automatizado</span>, <span class="verde">confiável</span>, integrado com órgãos públicos e <span class="verde">acessível</span> via aplicativo móvel para todos os usuários.</p>
+                    <img src="./assets/img/beneficios.webp" alt="Arduíno" >
+            </div>
+        </div>
+        <hr>
+        <div class="secoes">
+            <div id="diaadia">
+                <div class="tituloSecoes">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h1>Dia a dia</h1>
+                </div>
+                    <p>A solução fornece alertas em tempo <span class="verde">real</span>, permitindo que usuários se preparem e evitem <span class="vermelho">riscos</span> de <span class="enchentes">enchentes</span>. Com dados acessíveis no app, moradores e autoridades tomam decisões <span class="verde">rápidas</span> e <span class="verde">protegem</span> pessoas e patrimônios com <span class="verde">eficiência</span>.</p>
+                    <img src="./assets/img/dia a dia.jpg" alt="Arduíno" >
+            </div>
 </div>
 
 <script src="./assets/script.js"></script>

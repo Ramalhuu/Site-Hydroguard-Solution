@@ -55,6 +55,16 @@ body {
   min-width: 300px;
 }
 
+.botoesmenu a {
+  text-decoration: none; /* remove underline */
+  color: inherit; /* mantém a cor do texto original (ou você pode definir outra) */
+}
+
+.menu-titulo a{
+    text-decoration: none; /* remove underline */
+  color: inherit; /* mantém a cor do texto original (ou você pode definir outra) */
+}
+
 .botoesmenu li {
   font-family: "Alumni Sans SC", sans-serif;
   font-weight: 500;
@@ -236,4 +246,21 @@ body {
   height: 300px;          /* altura fixa para padronizar */
   object-fit: cover;      /* garante corte proporcional */
   border-radius: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.secoes {
+  scroll-margin-top: 60%; /* ajusta o espaço do topo ao rolar */
+}
+
+#problema,
+#tecnologias,
+#objetivos,
+#publico,
+#beneficios,
+#diaadia {
+  scroll-margin-top: 87px; /* ajuste conforme a altura da navbar */
 }
