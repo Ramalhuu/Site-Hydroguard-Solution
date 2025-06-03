@@ -199,7 +199,7 @@ body {
 }
 
 .secoes{
-    margin-top: 8%;
+    margin-top: 2%;
     margin-left: 8%;
     margin-bottom: 5%;
 }
@@ -222,17 +222,18 @@ body {
 }
 
 .secoes p{
-  margin: 0%;
+  margin: 0px 5% 0px 2%;
   font-family: "Alumni Sans SC", sans-serif;
   font-weight: 300;
-  font-size: 48px; 
+  font-size: 30px; 
 }
 
 .secoes img {
   display: block;
-  margin: 0 auto;
-  max-width: 80%;
-  height: auto;
+  margin: 2% auto 0 auto;
+  width: 40%;
+  max-width: 500px;       /* opcional: limite máximo */
+  height: 300px;          /* altura fixa para padronizar */
+  object-fit: cover;      /* garante corte proporcional */
   border-radius: 12px;
-  margin-top: 2%;
 }
