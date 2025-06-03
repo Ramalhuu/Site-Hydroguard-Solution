@@ -262,5 +262,51 @@ html {
 #publico,
 #beneficios,
 #diaadia {
-  scroll-margin-top: 87px; /* ajuste conforme a altura da navbar */
+  scroll-margin-top: 105px; /* ajuste conforme a altura da navbar */
 }
+
+header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .question {
+      font-weight: bold;
+    }
+    .options label {
+      display: block;
+      margin: 8px 0;
+      cursor: pointer;
+    }
+     #botao-proximo {
+      padding: 10px 20px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #botao-proximo:hover {
+      background-color: #005f8d;
+    }
+    #result {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
