@@ -193,3 +193,41 @@ body {
   font-size: 48px;
   margin: 1rem 0px 0px 0rem;
 }
+
+.secoes{
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.tituloSecoes {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaço entre o ícone e o texto */
+}
+
+.tituloSecoes i {
+  font-size: 100px; 
+}
+
+.tituloSecoes h1 {
+  margin: 0;
+  font-family: "Alumni Sans SC", sans-serif;
+  font-weight: 500;
+  font-size: 128px;
+}
+
+.secoes p{
+  margin: 0%;
+  font-family: "Alumni Sans SC", sans-serif;
+  font-weight: 300;
+  font-size: 48px; 
+}
+
+.secoes img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 2%;
+}
