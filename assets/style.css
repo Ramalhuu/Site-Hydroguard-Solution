@@ -17,11 +17,11 @@ body {
   justify-content: space-between;
   background-color: #fff;
   padding: 1% 1%;
-  position: fixed; /* para fixar no topo */
+  position: fixed; 
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999; /* fica acima de tudo */
+  z-index: 999; 
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,13 +56,13 @@ body {
 }
 
 .botoesmenu a {
-  text-decoration: none; /* remove underline */
-  color: inherit; /* mantém a cor do texto original (ou você pode definir outra) */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .menu-titulo a{
-    text-decoration: none; /* remove underline */
-  color: inherit; /* mantém a cor do texto original (ou você pode definir outra) */
+    text-decoration: none; 
+  color: inherit; 
 }
 
 .botoesmenu li {
@@ -86,13 +86,13 @@ body {
 
 .slide {
   display: none;
-  width: 80vw;         /* ocupa 80% da largura da tela */
-  height: auto;        /* mantém proporção */
+  width: 80vw;         
+  height: auto;        
   border-radius: 12px;
   filter: brightness(50%);
-  margin: 0 auto;      /* centraliza horizontalmente */
+  margin: 0 auto;      
   position: relative;
-  max-height: 80vh;  /* mantém fluxo normal */
+  max-height: 80vh;  
 }
 
 .slide.ativo {
@@ -147,7 +147,7 @@ body {
   font-size: 128px;
   margin: 0;
   line-height: 1;
-  z-index: 15; /* garantir que o texto fique acima das imagens */
+  z-index: 15; 
 }
 
 .textoPrincipal h1 {
@@ -217,7 +217,7 @@ body {
 .tituloSecoes {
   display: flex;
   align-items: center;
-  gap: 10px; /* espaço entre o ícone e o texto */
+  gap: 10px; 
 }
 
 .tituloSecoes i {
@@ -242,9 +242,9 @@ body {
   display: block;
   margin: 2% auto 0 auto;
   width: 40%;
-  max-width: 500px;       /* opcional: limite máximo */
-  height: 300px;          /* altura fixa para padronizar */
-  object-fit: cover;      /* garante corte proporcional */
+  max-width: 500px;       
+  height: 300px;          
+  object-fit: cover;      
   border-radius: 12px;
 }
 
@@ -253,7 +253,7 @@ html {
 }
 
 .secoes {
-  scroll-margin-top: 60%; /* ajusta o espaço do topo ao rolar */
+  scroll-margin-top: 60%; 
 }
 
 #problema,
@@ -262,7 +262,7 @@ html {
 #publico,
 #beneficios,
 #diaadia {
-  scroll-margin-top: 105px; /* ajuste conforme a altura da navbar */
+  scroll-margin-top: 105px; 
 }
 
 header {
