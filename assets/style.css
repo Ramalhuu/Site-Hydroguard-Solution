@@ -1,27 +1,34 @@
-.botoesmenu li {
-  font-family: "Alumni Sans SC", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 26px;
-}
-
-body {
+body, html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Alumni Sans SC", sans-serif;
+}
+
+.botoesmenu li,
+.menu-titulo,
+.textoPrincipal h1,
+.textoPrincipal h2,
+.oQueFazemos h1,
+.oQueFazemos p,
+.secoes p,
+.tituloSecoes h1 {
+  font-family: "Alumni Sans SC", sans-serif;
+  font-weight: 500;
+  margin: 0;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
-  padding: 1% 1%;
-  position: fixed; 
+  background: #fff;
+  padding: 1%;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999; 
+  z-index: 999;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,14 +37,11 @@ body {
   height: auto;
   position: absolute;
   margin-left: 5%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .menu-titulo {
   flex: 1;
   text-align: center;
-  font-family: 'Alumni Sans SC', sans-serif;
   font-size: 50px;
   min-width: 600px;
   position: absolute;
@@ -55,25 +59,19 @@ body {
   min-width: 300px;
 }
 
-.botoesmenu a {
-  text-decoration: none; 
-  color: inherit; 
-}
-
-.menu-titulo a{
-    text-decoration: none; 
-  color: inherit; 
-}
-
 .botoesmenu li {
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   cursor: pointer;
-  padding: 1% 1%;
-  background-color: #fff;
+  padding: 1%;
+  background: #fff;
   border: 2px solid #28CB8B;
   border-radius: 12px;
+}
+
+.botoesmenu a,
+.menu-titulo a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .imagemPrincipal {
@@ -86,22 +84,17 @@ body {
 
 .slide {
   display: none;
-  width: 80vw;         
-  height: auto;        
+  width: 80vw;
+  height: auto;
   border-radius: 12px;
   filter: brightness(50%);
-  margin: 0 auto;      
+  margin: 0 auto;
   position: relative;
-  max-height: 80vh;  
+  max-height: 80vh;
 }
 
 .slide.ativo {
   display: block;
-}
-
-.slide.ativo {
-  display: block;
-  position: relative;
   z-index: 10;
 }
 
@@ -109,9 +102,9 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   border: none;
-  color: white;
+  color: #fff;
   font-size: 40px;
   padding: 10px 15px;
   cursor: pointer;
@@ -120,21 +113,14 @@ body {
   z-index: 20;
 }
 
-.btnSlide.prev {
-  left: 20px;
-}
-
-.btnSlide.next {
-  right: 20px;
-}
-
 .btnSlide:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.fotosEnchente {
-  display: none;
-}
+.btnSlide.prev { left: 20px; }
+.btnSlide.next { right: 20px; }
+
+.fotosEnchente { display: none; }
 
 .textoPrincipal {
   position: absolute;
@@ -143,171 +129,123 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-family: 'Alumni Sans SC', sans-serif;
   font-size: 128px;
-  margin: 0;
   line-height: 1;
-  z-index: 15; 
+  z-index: 15;
 }
 
-.textoPrincipal h1 {
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 500;
-  font-size: 128px;
-  margin: 0;
-  line-height: 1;
-}
+.textoPrincipal h1 { font-size: 128px; }
+.textoPrincipal h2 { font-size: 98px; }
 
-.textoPrincipal h2 {
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 500;
-  font-size: 98px;
-  margin: 0;
-  line-height: 1;
-}
-
-.textoPrincipal strong {
-  color: #28CB8B;
-  font-weight: 500;
-}
-
+.textoPrincipal strong,
 .textoPrincipal h2 strong {
-  color: #0FC6EF;
   font-weight: 500;
 }
 
-.verde{
-    color: #28CB8B;
+.textoPrincipal strong { color: #28CB8B; }
+.textoPrincipal h2 strong { color: #0FC6EF; }
+
+.verde { color: #28CB8B; }
+.enchentes { color: #0FC6EF; }
+.vermelho { color: red; }
+
+.oQueFazemos {
+  text-align: center;
+  margin: 6rem 15rem;
 }
 
-.enchentes{
-    color: #0FC6EF;
+.oQueFazemos h1 { font-size: 128px; margin-top: 8rem; }
+.oQueFazemos p { font-size: 48px; margin-top: 1rem; font-weight: 300; }
+
+.secoes {
+  margin: 2% 0 5% 8%;
+  scroll-margin-top: 60%;
 }
 
-.vermelho{
-    color: red;
-}
-
-.oQueFazemos{
-    text-align: center;
-    margin: 6rem 15rem ;
-
-}
-
-.oQueFazemos h1{
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 500;
-  font-size: 128px;
-  margin: 8rem 0px 0px 0rem;
-}
-
-.oQueFazemos p{
-  font-family: "Alumni Sans SC", sans-serif;
+.secoes p {
+  margin: 0 5% 0 2%;
+  font-size: 30px;
   font-weight: 300;
-  font-size: 48px;
-  margin: 1rem 0px 0px 0rem;
 }
 
-.secoes{
-    margin-top: 2%;
-    margin-left: 8%;
-    margin-bottom: 5%;
+.secoes img {
+  display: block;
+  margin: 2% auto 0;
+  width: 40%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .tituloSecoes {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
-.tituloSecoes i {
-  font-size: 100px; 
-}
+.tituloSecoes i { font-size: 100px; }
+.tituloSecoes h1 { font-size: 128px; }
 
-.tituloSecoes h1 {
-  margin: 0;
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 500;
-  font-size: 128px;
-}
-
-.secoes p{
-  margin: 0px 5% 0px 2%;
-  font-family: "Alumni Sans SC", sans-serif;
-  font-weight: 300;
-  font-size: 30px; 
-}
-
-.secoes img {
-  display: block;
-  margin: 2% auto 0 auto;
-  width: 40%;
-  max-width: 500px;       
-  height: 300px;          
-  object-fit: cover;      
-  border-radius: 12px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.secoes {
-  scroll-margin-top: 60%; 
-}
-
-#problema,
-#tecnologias,
-#objetivos,
-#publico,
-#beneficios,
-#diaadia {
-  scroll-margin-top: 105px; 
+#problema, #tecnologias, #objetivos, #publico, #beneficios, #diaadia {
+  scroll-margin-top: 105px;
 }
 
 header {
-      background-color: #0077b6;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      
-    }
-    .container {
-      max-width: 1200px;
-      margin: 2% 25%;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 20px;
-      /* text-align: center; */
-    }
-    .question {
-      font-weight: bold;
-    }
-    .options label {
-      display: block;
-      margin: 8px 0;
-      cursor: pointer;
-    }
-     #botao-proximo {
-      padding: 10px 20px;
-      background-color: #0077b6;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 3%;
-    }
-    #botao-proximo:hover {
-      background-color: #005f8d;
-    }
-    #resultado {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 20px;
-    }
+  background: #0077b6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2% auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.question { font-weight: bold; }
+
+.options label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+#botao-proximo {
+  padding: 10px 20px;
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+#botao-proximo:hover {
+  background: #005f8d;
+}
+
+#resultado {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.question{
+  font-size: 30px;
+}
+
+.options{
+  font-size: 24px;
+}
