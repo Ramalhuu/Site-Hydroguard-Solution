@@ -38,7 +38,7 @@ Responsividade com Media Queries
 
 
 📱 Responsividade
-O site foi projetado para funcionar bem em desktops, tablets e dispositivos móveis, com menu adaptável (hamburger) e elementos visuais que se reorganizam para telas menores.
+O site foi projetado para funcionar bem em desktops e dispositivos móveis, com menu adaptável (hamburger) e elementos visuais que se reorganizam para telas menores.
 
 
 ⚙️ Funcionalidades
