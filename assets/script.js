@@ -38,7 +38,7 @@ const quizData = [
 
     const quizEl = document.getElementById("quiz");
     const botaoProximo = document.getElementById("botao-proximo");
-    const resultEl = document.getElementById("result");
+    const resultEl = document.getElementById("resultado");
 
     function showQuestion() {
       const q = quizData[currentQuestion];

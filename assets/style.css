@@ -270,10 +270,11 @@ header {
       color: white;
       padding: 20px;
       text-align: center;
+      
     }
     .container {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 1200px;
+      margin: 2% 25%;
       background-color: #fff;
       padding: 30px;
       border-radius: 8px;
@@ -282,7 +283,7 @@ header {
     h1 {
       font-size: 28px;
       margin-bottom: 20px;
-      text-align: center;
+      /* text-align: center; */
     }
     .question {
       font-weight: bold;
@@ -299,12 +300,12 @@ header {
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      margin-top: 20px;
+      margin-top: 3%;
     }
     #botao-proximo:hover {
       background-color: #005f8d;
     }
-    #result {
+    #resultado {
       font-size: 20px;
       font-weight: bold;
       text-align: center;
