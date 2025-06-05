@@ -249,3 +249,100 @@ h1 {
 .options{
   font-size: 24px;
 }
+
+
+.hamburger {
+  display: none;
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: #28CB8B;
+  z-index: 1000;
+  position: absolute;
+  right: 5%;
+}
+
+
+.menu-mobile {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 10px 10px;
+  padding: 1rem;
+  z-index: 999;
+}
+
+.menu-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-mobile li {
+  margin: 10px 0;
+}
+
+.menu-mobile a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+
+.menu-mobile.active {
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .botoesmenu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 1%;
+  }
+
+  .menu-titulo {
+    font-size: 40px;
+    min-width: unset;
+    margin-left: 0;
+  }
+
+
+  .logoEmpresa {
+    width: 100px;
+  }
+
+  .oQueFazemos p{
+    font-size: 24px;
+  }
+
+  .menu-titulo {
+    margin-top: 1%;
+    margin-left: 40%
+  }
+  
+  .nav{
+    padding: 3%;
+  }
+
+  .oQueFazemos h1{
+    font-size: 96px;
+  }
+
+  .textoPrincipal h1{
+    font-size: 45px;
+  }
+
+  .textoPrincipal h2{
+    font-size: 35px;
+  }
+}

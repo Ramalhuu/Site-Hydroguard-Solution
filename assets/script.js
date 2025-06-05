@@ -80,3 +80,10 @@ const quizData = [
     function mudarCorFundo(cor) {
   document.body.style.backgroundColor = cor;
 }
+
+
+function toggleMenu(){
+  const menu = document.getElementById('menuMobile');
+  menu.classList.toggle('active');
+}
+
